@@ -35,7 +35,7 @@ npm install express dotenv cors
 
 
 ## how to test this app
-#### to test the react app you can write this command
+### to test the react app you can write this command
 ```
 npm run test
 ```
