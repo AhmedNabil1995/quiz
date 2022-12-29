@@ -20,9 +20,8 @@ npm start
 now your app is ready to use, and if there is any problem with some packages that aren't installed, you can install it manually
 for client-side there is two packages are used besides react
 * react-router
-* axios
 ```
-npm install react-router-dom@6 axios
+npm install react-router-dom@6
 ```
 
 for server-side there is three packages are installed
