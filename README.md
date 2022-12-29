@@ -20,9 +20,8 @@ npm start
 now your app is ready to use, and if there is any problem with some packages that aren't installed, you can install it manually
 for client-side there is two packages are used besides react
 * react-router
-* axios
 ```
-npm install react-router-dom@6 axios
+npm install react-router-dom@6
 ```
 
 for server-side there is three packages are installed
@@ -35,8 +34,16 @@ npm install express dotenv cors
 
 
 
-#### now let us know how to use and test this app
-## this app consist of 4 screens
+## how to test this app
+### to test the react app you can write this command
+```
+npm run test
+```
+```
+npm run coverage
+```
+## how to use the App
+#### this app consist of 4 screens
 
 #### 1. Start Quiz Screen
 #### 2. Rules Screen
