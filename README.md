@@ -42,7 +42,8 @@ npm run test
 ```
 npm run coverage
 ```
-## this app consist of 4 screens
+## how to use the App
+#### this app consist of 4 screens
 
 #### 1. Start Quiz Screen
 #### 2. Rules Screen
