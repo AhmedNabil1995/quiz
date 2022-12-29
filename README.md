@@ -35,7 +35,14 @@ npm install express dotenv cors
 
 
 
-#### now let us know how to use and test this app
+## how to test this app
+#### to test the react app you can write this command
+```
+npm run test
+```
+```
+npm run coverage
+```
 ## this app consist of 4 screens
 
 #### 1. Start Quiz Screen
