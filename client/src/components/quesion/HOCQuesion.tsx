@@ -28,6 +28,7 @@ export const WithQuesion = (Component:WithQuesionProps)=>{
             .catch(console.log)
       
         },[])
+
       
         useEffect(()=>{
             //srart the timer to count from 10 to 0
@@ -37,7 +38,7 @@ export const WithQuesion = (Component:WithQuesionProps)=>{
               stopTimer();
             }
         },[])
-      
+
         //counting from 10 to 0
         const startTimer=()=>{
       
@@ -109,8 +110,8 @@ export const WithQuesion = (Component:WithQuesionProps)=>{
           //check if your answer is correct or not
           if((e.target as HTMLDivElement).textContent === quesions[currentQuesionNum-1]['pos']){
             (e.target as HTMLDivElement).classList.add('correctAnswer');
-            correctAudio.play();
             setScore(++score)
+            correctAudio.play();
           }else{
             (e.target as HTMLDivElement).classList.add('wrongAnswer');
             wrongAudio.play();
